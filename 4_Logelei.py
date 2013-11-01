@@ -1,9 +1,9 @@
 #####################################################
 # Aufgabe 4: Logelei
 #
-# fuehrende Nullen nicht erlaubt (1)
-# 2*x muss 5 stellig sein (2)
-# jede Ziffer von 0-9 muss genau einmal vorkommen (3)
+# leading zeros not allowed (1)
+# 2*x must have 5 digits (2)
+# each digit 0-9 must occur exacly once (3)
 # (1),(2),(3) --> x_min = 12345, x_max 49876
 
 print "x\t2*x"
@@ -22,4 +22,3 @@ for x in xrange(x_min, x_max + 1):
     
     if(contains):
         print x, "\t", y
-        
